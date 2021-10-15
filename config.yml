@@ -31,7 +31,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
 
   disableSpecial1stPost: false
@@ -52,13 +52,13 @@ params:
     safari_pinned_tab: "Thinking_Face_Emoji_large.png"
 
   label:
-    text: "a_ide_1995"
+    text: "a_ide_1995 ☕️"
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Hi I'm a_ide 😄"
+    title: "Hi I'm a_ide ☕️"
     subtitle: "coffee lover engineer"
     imageUrl: "profile.jpg"
     imageWidth: 200
@@ -81,10 +81,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/okaponta/profile/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/okaponta/profile/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -107,7 +107,7 @@ menu:
       url: portfolio
       weight: 10
     - name: Profile 👦
-      url: Profile
+      url: profile
       weight: 15
     - name: search 🔍
       url: search/
@@ -116,6 +116,12 @@ menu:
       name: tags 🏷
       url: tags/
       weight: 25
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
