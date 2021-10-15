@@ -1,4 +1,5 @@
 baseURL: "https://upbeat-jang-4f1c71.netlify.app"
+publishDir: "public"
 canonifyurls: true
 title: a_ide_1995
 paginate: 5
