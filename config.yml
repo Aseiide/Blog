@@ -1,5 +1,6 @@
 baseURL: "https://a_ide_1995.netlify.com/"
 canonifyurls: true
+publishDir: "content"
 title: a_ide_1995
 paginate: 5
 theme: PaperMod
