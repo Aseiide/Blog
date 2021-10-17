@@ -1,10 +1,16 @@
-# OSSライセンスに共通する主な条件
+---
+title: "ソフトウェアライセンスについて"
+date: 2021-10-17T23:07:10+09:00
+draft: false
+---
+
+# OSS ライセンスに共通する主な条件
 
 - 再配布する際にライセンス本文をつける
 - 利用は無保証、脆弱性や不具合は自己責任
 - 対象のソフトウェアに関連する特許がある場合、無償で利用許諾する
 
-# OSSライセンスの類型
+# OSS ライセンスの類型
 
 ## コピーレフト型(GPL)
 
@@ -29,7 +35,7 @@
 - ほぼ何も気にしない
 - 主なライセンス: BSD License, Apache License, MIT Lisense
 
-## MITライセンス
+## MIT ライセンス
 
 > The MIT License Copyright (c) <year> <copyright holders>
 
@@ -42,4 +48,8 @@
 
 ### 本許諾表示とは?
 
-リポジトリ内のLICENSEをコピーして貼っておく
+リポジトリ内の LICENSE をコピーして貼っておく
+
+# 参考資料
+
+https://speakerdeck.com/cybozuinsideout/software-license-2021
