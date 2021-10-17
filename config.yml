@@ -102,20 +102,24 @@ menu:
       name: Blog 📫
       url: blog
       weight: 5
+    - identifier: Categories
+      name: categories
+      url: categories
+      weight: 10
     - identifier: Portfolio
       name: Portfolio 💼
       url: portfolio
-      weight: 10
+      weight: 15
     - name: Profile 👦
       url: profile
-      weight: 15
+      weight: 20
     - name: search 🔍
       url: search/
-      weight: 20
+      weight: 25
     - identifier: tags
       name: tags 🏷
       url: tags/
-      weight: 25
+      weight: 30
 outputs:
   home:
     - HTML
