@@ -22,7 +22,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: a_ide_1995
   # author: ["Me", "You"] # multiple authors
-  images: ["profile.jpg"]
+  # images: ["profile.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -121,5 +121,4 @@ outputs:
     - JSON # is necessary
 cover:
   hidden: true # hide everywhere but not in structured data
-  hiddenInList: true # hide on list pages and home
   hiddenInSingle: true # hide on single page
