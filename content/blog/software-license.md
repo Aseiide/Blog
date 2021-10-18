@@ -2,7 +2,7 @@
 title: "ソフトウェアライセンスについて"
 date: 2021-10-17T23:07:10+09:00
 draft: false
-description: "ソフトウェアライセンスについて学んだこと"
+summary: "ソフトウェアライセンスについて学んだこと"
 categories:
   - 学習メモ
 tags:
