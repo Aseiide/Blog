@@ -8,6 +8,9 @@ categories:
 tags:
   - 技術
   - メモ
+cover:
+  relative: true # when using page bundles set this to true
+  hidden: true # only hide on current single pa
 ---
 
 # OSS ライセンスに共通する主な条件
