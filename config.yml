@@ -18,8 +18,7 @@ minify:
 
 params:
   #    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: a_ide's blog
   keywords: [Blog, Portfolio, PaperMod]
   author: a_ide_1995
   # author: ["Me", "You"] # multiple authors
@@ -31,7 +30,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: false
+  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
   disableSpecial1stPost: false
@@ -77,7 +76,7 @@ params:
       url: "https://www.youtube.com/channel/UCphwYdPnxNiSeGiif-tKGBw"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
@@ -103,7 +102,7 @@ menu:
       url: blog
       weight: 5
     - identifier: Categories
-      name: categories
+      name: categories 🏷
       url: categories
       weight: 10
     - identifier: Portfolio
@@ -117,7 +116,7 @@ menu:
       url: search/
       weight: 25
     - identifier: tags
-      name: tags 🏷
+      name: tags
       url: tags/
       weight: 30
 outputs:
