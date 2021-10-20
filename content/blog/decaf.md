@@ -60,6 +60,6 @@ images:
 - [無印のデカフェ ドリップバッグ/コーヒーバッグ/豆](https://www.muji.com/jp/ja/store/cmdty/section/S300040207)
   - 安いし、手に入りやすい。味は深煎りなので深煎り好きな人にはおすすめ
 
-![アーマッドティのデカフェアールグレイ](/images/image1.jpg)
+![アーマッドティのデカフェアールグレイ](/images/decaf.jpg)
 
 楽しいデカフェライフを
