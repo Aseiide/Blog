@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "Hi I'm a_ide ☕️"
     subtitle: "coffee lover engineer"
-    imageUrl: "profile.jpg"
+    imageUrl: "images/profile.jpg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: my image
