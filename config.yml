@@ -1,4 +1,4 @@
-baseURL: "http://a-ide-1995.com"
+baseURL: "http://a-ide-1995.com/"
 publishDir: "public"
 canonifyurls: true
 title: a_ide_1995
