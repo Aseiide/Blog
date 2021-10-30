@@ -126,3 +126,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+defaultContentLanguage : ja
