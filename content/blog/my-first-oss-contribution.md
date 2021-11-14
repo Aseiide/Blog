@@ -52,3 +52,8 @@ forkする場合が多いと思いますが、コントリビュートすると�
 
 まず、個人の目標を達成できたことがすごく嬉しいです。  
 OSSコントリビュートの一歩を踏み出すことができたので、より貢献できるように学習を進めて技術的な修正も送れるようにしたいと考えています。  
+
+# 参考リンク
+
+-   [gooddirstissue.dev](https://goodfirstissue.dev/)
+-   [はじめてのOSSコントリビュート](https://qiita.com/Yuichi_Yogo/items/81bd00880a02fd5e816c)
