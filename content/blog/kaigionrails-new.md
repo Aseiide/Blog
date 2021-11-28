@@ -2,6 +2,11 @@
 title: "100人の前でLTしました。 Kaigi on Rails _2021_ new"
 date: 2021-10-12
 draft: false
+categories:
+  - 技術
+tags:
+  - 勉強会
+  - LT
 ---
 Kaigi on Railsのプレイベントで「Rubyコミュニティのすゝめ」というLTをしました。  
 本編で語りきれなかった話も含めてブログで供養します
