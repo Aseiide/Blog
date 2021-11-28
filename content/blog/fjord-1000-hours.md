@@ -2,6 +2,12 @@
 title: "フィヨルドブートキャンプでの学習時間が1000時間を越えました"
 date: 2021-10-03
 draft: false
+categories:
+  - 雑記
+tags:
+  - FJORDBOOTCAMP
+images:
+  - image1
 ---
 # 学習時間が1000時間を超えた
 
