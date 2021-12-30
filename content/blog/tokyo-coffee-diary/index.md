@@ -20,7 +20,7 @@ tags:
 日曜日に行ったので、1時間並んでやっと入れました。SNSでめちゃめちゃ紹介されるからバズってて来る人がめちゃくちゃ増えている様子でした。  
 行列に並ぶことが嫌いなので入店時点では「疲れた」という気持ちが大きかったのですが、対応してくれたスタッフさんが僕のことを覚えててくれて、いろいろな話をしながらエスプレッソとハンドドリップコーヒーを頂きました。  
 お店: <https://goo.gl/maps/m1vYSQzjHxjnK8Um7>  
-![Koffee Mameya](/images/koffeemameya.jpg)  
+{{< resize src="images/koffeemameya.jpg" alt="koffeemameya" >}}
 
 # Single O Hamacho
 
@@ -30,7 +30,7 @@ tags:
 タップシステムは、カップを機械に置くと自動的にコーヒーが出てくるシステムで新鮮な体験でした。  
 [タップシステムのイメージ](https://www.instagram.com/p/CVfrCHuvb8w/)  
 お店: <https://goo.gl/maps/eXM5ckqoGPijyp4q7>  
-![singleohamacho](/images/singleohamacho.jpg)
+{{< resize src="images/singleohamacho.jpg" alt="singleohamacho" >}}
 
 # 茶亭 羽當(チャテイ ハトウ)
 
@@ -39,4 +39,4 @@ tags:
 お店の名前が、「チャテイ」なのか「サテイ」なのか未だによくわからない。  
 PC作業は控えたほうが良さそう(雰囲気的に)ですが、落ち着いた店内なので本を読んだりするには最適だと思います。  
 お店: <https://goo.gl/maps/iPfo5EjutqH55eYw5>
-![sateihatou](/images/sateihatou.jpg)
+{{< resize src="images/sateihatou.jpg" alt="sateihatou" >}}
