@@ -9,7 +9,7 @@ tags:
   - コーヒー
   - 東京
 images: 
-  - '/images/singleohamacho.jpg'
+  - 'blog/tokyo-coffee-diary/images/singleohamacho.jpg'
 ---
 
 東京に1泊してきたのでそのときに行ったコーヒー屋をまとめつつ、紹介します。
