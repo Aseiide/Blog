@@ -15,7 +15,8 @@ tags:
 to_fメソッドをデカい小数で扱うときに丸め誤差が出てしまった。
 
 # きっかけとなった事例
-![問題画像](/images/image1.png)
+
+{{< img640x src="images/image1.png" alt="image1" >}}
 
 僕が最初に提出したコードは以下
 
@@ -37,9 +38,6 @@ x = 84939825309432908832902189.9092309409809091329
 
 つまり、15桁までは浮動小数点として扱うことができ、16桁以上になると [IEEE754 規格](https://ja.wikipedia.org/wiki/IEEE_754)に従って数値が変換される。  
 以下ではあるところから桁数が増えてるにも関わらず、数値が変換されていることがわかる。
-
-
-<figure class="figure-image figure-image-fotolife" title="to_fの挙動">[f:id:Aseiide:20210321183258p:plain]<figcaption>to_fの挙動</figcaption></figure>
 
 また、メソッド`to_f`はIntegrでもStringでも使える。
 

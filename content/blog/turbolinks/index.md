@@ -32,8 +32,3 @@ Webアプリケーションの読み込みを高速にするライブラリ
 
 # 最後に
 [公式GitHub](https://github.com/turbolinks/turbolinks/blob/master/README.md)
-
-日本語での解説はこれがわかりやすかった
-
-[https://www.ryotaku.com/entry/2019/01/15/213420#Turbolinks%E3%81%A8%E3%81%AF:title]
-
