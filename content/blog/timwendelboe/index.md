@@ -52,4 +52,4 @@ tags:
 コーヒーの楽しさって、日本だけじゃなく気軽に世界に触れられる1面もあると思っています。  
 日本のロースターから高い配送料で買うくらいだったら、飲んでみたい海外ロースターから買ってみるのはアリかなと思います。  
 
-![パッケージ写真](/images/timwendelboe_001.jpg)
+{{< resize src="images/timwendelboe_001.jpg" alt="timwendelboe" >}}
