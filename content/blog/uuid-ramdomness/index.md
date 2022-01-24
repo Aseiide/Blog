@@ -3,6 +3,7 @@ title: "UUIDとコンピュータとランダムネスについて"
 date: 2022-01-22T19:07:59+09:00
 draft: false
 summary: 'RFCに定義されているUUIDの仕様とコンピュータとランダムネスについて'
+slug: "uuid-randomness"
 categories:
 - 技術
 tags:
