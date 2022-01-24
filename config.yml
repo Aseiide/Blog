@@ -43,9 +43,6 @@ params:
   showtoc: true
   tocopen: false
 
-  permalinks:
-    blog: "/:section/:year/:month/:day/:slug"
-
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
