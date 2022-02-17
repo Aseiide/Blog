@@ -9,6 +9,7 @@ tags:
 - Rails
 - フィヨルドブートキャンプ
 ---
+
 # Gem::LoadErrorで急に開発環境が壊れた
 
 現在、フィヨルドブートキャンプで「システム開発」に取り組んでいます。
@@ -19,7 +20,6 @@ tags:
 [bundle install時に--path vendor/bundleを付ける必要性は本当にあるのか、もう一度よく考えてみよう - Qiita](https://qiita.com/jnchito/items/99b1dbea1767a5095d85)
 を読んで、`--path vendor/bundle`をつけるのはやめるのと、設定を見直しましょう。
 
-
 ## 発生したエラー
 
 以下のようなエラーで、出力を見る限りstringioが原因みたい。
@@ -28,31 +28,31 @@ Gemfileには`stringio 3.0.1`を読み込むようになっているが、ロー
 ```
 ❯ bin/rails test test/system/notification/tabs_badges_test.rb
 /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:309:in `check_for_activated_spec!': You have already activated stringio 0.1.0, but your Gemfile requires stringio 3.0.1. Since stringio is a default gem, you can either remove your dependency on it or try updating to a newer version of bundler that supports stringio as a default gem. (Gem::LoadError)
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:25:in `block in setup'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/spec_set.rb:136:in `each'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/spec_set.rb:136:in `each'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:24:in `map'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:24:in `setup'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler.rb:150:in `setup'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/setup.rb:10:in `block in <top (required)>'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/ui/shell.rb:136:in `with_level'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/ui/shell.rb:88:in `silence'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/setup.rb:10:in `<top (required)>'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/commands.rb:33:in `<module:Spring>'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/commands.rb:4:in `<top (required)>'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:87:in `preload'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:157:in `serve'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:145:in `block in run'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:139:in `loop'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:139:in `run'
-        from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application/boot.rb:19:in `<top (required)>'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
-        from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
-        from -e:1:in `<main>'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:25:in `block in setup'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/spec_set.rb:136:in `each'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/spec_set.rb:136:in `each'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:24:in `map'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/runtime.rb:24:in `setup'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler.rb:150:in `setup'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/setup.rb:10:in `block in <top (required)>'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/ui/shell.rb:136:in `with_level'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/ui/shell.rb:88:in `silence'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/bundler-2.2.30/lib/bundler/setup.rb:10:in `<top (required)>'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/commands.rb:33:in `<module:Spring>'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/commands.rb:4:in `<top (required)>'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:87:in `preload'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:157:in `serve'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:145:in `block in run'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:139:in `loop'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application.rb:139:in `run'
+from /Users/aseiide/development/fjordbootcamp/bootcamp/vendor/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
+from /Users/aseiide/.rbenv/versions/2.7.4/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:83:in `require'
+from -e:1:in `<main>'
 ```
 
 # 結局、gem install stringio -v 3.0.1 で解決
@@ -60,10 +60,10 @@ Gemfileには`stringio 3.0.1`を読み込むようになっているが、ロー
 ログを見る限りは、`stringio 3.1.0`が必要ということだったので`gem install stringio -v 3.0.1`を実行しインストールしました。
 そうしたところ、エラーは直り開発環境が無事に立ち上がるようになりました。
 
- # なぜgemのインストールで解決したのか？？
- 
+# なぜgemのインストールで解決したのか？？
+
  そもそも、原因は以下のように推測されるようです。
- 
+
 1. テストを実行しようとする
 2. まずBundlerに処理が移る
 3. Bundler本体が？Rubygemsが？require 'stringio'する。このタイミングではRuby 2.7標準の(=default gemの)stringio 0.1.0が読み込まれる
@@ -89,6 +89,7 @@ Gemfileには`stringio 3.0.1`を読み込むようになっているが、ロー
 cat .bundle/config
 cat ~/.bundle/config
 ```
+
 これらを実行して、出力結果に`BUNDLE_PATH: "vendor/bundle"`があったら設定が残ってしまっていますので、消すのが良さそうです。
 
 ```
