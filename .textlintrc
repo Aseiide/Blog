@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "preset-smarthr": {
+      "sentence-length": false,
+      "ja-no-mixed-period": false
+    },
+    "prh": {
+      "rulePaths": [
+        "dict/smarthr-prh-basic.yml",
+        "dict/smarthr-prh-tech-word.yml"
+      ]
+    }
+  }
+}
