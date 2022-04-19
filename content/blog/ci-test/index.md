@@ -8,3 +8,5 @@ draft: false
 aaa
 これはテストです。
 this is a test post
+思います。
+思う。
