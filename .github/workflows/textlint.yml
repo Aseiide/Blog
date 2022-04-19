@@ -1,42 +1,15 @@
-# This is a basic workflow to help you get started with Actions
-
-name: reviewdog
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  pull_request:
-    branches: [ main ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+name: textlint
+on: push
 jobs:
-  reviewdog-github-check:
-    name: reviewdog (github-check)
+  build:
+    name: check textlint
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 10
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
-
-      - name: Install reviewdog
-        uses: reviewdog/action-setup@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          reviewdog_version: latest
-
-      - name: Install Dependencies
-        uses: bahmutov/npm-install@v1
-
-      - name: Install textlint
-        run:  'npm install --save-dev textlint textlint-rule-preset-smarthr textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-aws-spellcheck'
-      
-      - name: Execute textlint for ブログ記事 or 技術同人誌
-        run: |
-          npx textlint -f checkstyle "content/blog/*/*.md" >> .textlint.log
-      - name: Run reviewdog
-        # textlintで文章上のミスがあった場合のみ、reviewdogを実行させるようにする
-        if: failure()
-        env:
-          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cat .textlint.log
-          cat .textlint.log | reviewdog -f=checkstyle -name="textlint" -reporter="github-pr-review"
+          node-version: 14.x
+      - run: yarn install
+      - name: Check Textlint
+        run: yarn run textlint
