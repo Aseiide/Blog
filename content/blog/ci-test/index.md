@@ -10,3 +10,5 @@ aaa
 this is a test post
 思います。
 思う。
+これはテスト
+日報を書いた。
