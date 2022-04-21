@@ -33,7 +33,7 @@ jobs:
       
       - name: Execute textlint for ブログ記事 or 技術同人誌
         run: |
-          npx textlint  "./blog/content/*/index.md" >> .textlint.log
+          npx textlint  "./content/blog/*/index.md" >> .textlint.log
 
       - name: Run reviewdog
         # textlintで文章上のミスがあった場合のみ、reviewdogを実行させるようにする
