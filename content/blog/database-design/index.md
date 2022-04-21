@@ -48,7 +48,7 @@ Twitterの主な機能をもとにER図を作成するという内容
 
 - 1個のツイートに対して複数のリプライがあるという関係
 - リプライもすべて「ツイート」
-- Repliesテーブルに切り出し、FKとしてtweet_idをもたせる事にしました
+- Repliesテーブルに切り出し、FKとしてtweet_idをもたせることにしました
 
 
 {{< img640x src="images/database3.jpg" alt="database3" >}}

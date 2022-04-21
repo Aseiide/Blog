@@ -34,7 +34,7 @@ x = 84939825309432908832902189.9092309409809091329
 # RubyのFloatクラスについて
 
 > 浮動小数点数のクラス。Float の実装は C 言語の double で、その精度は環境に依存します。  
-一般にはせいぜい15桁です。詳しくは多くのシステムで採用されている浮動小数点標準規格、IEEE (Institute of Electrical and Electronics Engineers: 米国電気電子技術者協会) 754 を参照してください。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/class/Float.html)
+一般にはせいぜい15桁です。詳しくは多くのシステムで採用されている浮動小数点標準規格、IEEE (Institute of Electrical and Electronics Engineers: 米国電気電子技術者協会) 754を参照してください。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/class/Float.html)
 
 つまり、15桁までは浮動小数点として扱うことができ、16桁以上になると [IEEE754 規格](https://ja.wikipedia.org/wiki/IEEE_754)に従って数値が変換される。  
 以下ではあるところから桁数が増えてるにも関わらず、数値が変換されていることがわかる。
@@ -44,16 +44,16 @@ x = 84939825309432908832902189.9092309409809091329
 ## Integer#to_f
 
 > self を浮動小数点数(Float)に変換します。  
-self が Float の範囲に収まらない場合、Float::INFINITY を返します。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/method/Integer/i/to_f.html)
+selfがFloatの範囲に収まらない場合、Float::INFINITYを返します。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/method/Integer/i/to_f.html)
 
 
 ## String#to_f
 
 > 文字列を 10 進数表現と解釈して、浮動小数点数 Float に変換します。  
-浮動小数点数とみなせなくなるところまでを変換対象とします。変換対象が空文字列であれば 0.0 を返します。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/method/String/i/to_f.html)
+浮動小数点数とみなせなくなるところまでを変換対象とします。変換対象が空文字列であれば0.0を返します。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/method/String/i/to_f.html)
 
 ## 浮動小数点とは
-聞いたことあるけどなんだっけ。ってやつだったので改めて学習した。  
+聞いたことあるけどなんだっけ。ってやつだったのであらためて学習した。  
 数字を「仮数」「基数」「指数」で表す小数のこと。
 
 [https://wa3.i-3-i.info/word14959.html]
@@ -107,7 +107,7 @@ x = 84939825309432908832902189.9092309409809091329
 脳死で.to_fやBigDecimalとするのではなく、to_iなども含めて適切なコードを使っていきたい。
 
 # 番外編（追記）
-Fukuoka.rb でお世話になっている [@udzura](https://twitter.com/udzura)さんよりコメントを頂きました。  
+Fukuoka.rbでお世話になっている [@udzura](https://twitter.com/udzura)さんよりコメントを頂きました。  
 せっかくなのでRationalクラスについて追記していきます。
 
 [https://twitter.com/udzura/status/1373590315647574017:embed]
@@ -117,7 +117,7 @@ Fukuoka.rb でお世話になっている [@udzura](https://twitter.com/udzura)�
 競プロは知らないものに出会える良い機会だなと思っています。
 
 > 有理数を扱うクラスです。  
-「1/3」のような有理数を扱う事ができます。Integer や Float と同様に Rational.new ではなく、 Kernel.#Rational を使用して Rational オブジェクトを作成します。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/class/Rational.html)
+「1/3」のような有理数を扱うことができます。IntegerやFloatと同様にRational.newではなく、 Kernel.#Rationalを使用してRationalオブジェクトを作成します。[リファレンスより引用](https://docs.ruby-lang.org/ja/latest/class/Rational.html)
 
 ```ruby
 example.rb
