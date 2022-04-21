@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "-   コマンドメモ     -   `hugo new blog/ディレクトリ名/index.md` でブログ記事作成",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aseiide/Blog.git"
+  },
+  "keywords": [],
+  "author": "Eisei Ide <eiseiide@gmail.com> (https://twitter.com/Aseiide)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aseiide/Blog/issues"
+  },
+  "homepage": "https://github.com/Aseiide/Blog#readme",
+  "devDependencies": {
+    "textlint": "^12.1.1",
+    "textlint-rule-preset-smarthr": "^1.13.0"
+  }
+}
