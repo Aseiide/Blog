@@ -18,7 +18,7 @@ to_fメソッドをデカい小数で扱うときに丸め誤差が出てしま�
 
 {{< img640x src="images/image1.png" alt="image1" >}}
 
-僕が最初に提出したコードは以下
+僕が最初に提出したコードは以下です。
 
 ```ruby
 x = gets.chomp.to_f
@@ -78,7 +78,7 @@ p BigDecimal("123.1234567890123456789") # => 0.1231234567890123456789e3
 ## どういうときにBigDecimalを使うのか
 **Floatで扱える範囲を超えるかどうか** というのが基準になりそうな気がします。  
 
-金額の計算では`BigDecimal`を使うのが良いみたいです
+金額の計算では`BigDecimal`を使うのが良いみたいです。
 
 [https://qiita.com/jnchito/items/d0ef71b25732ad5a881c:title]
 

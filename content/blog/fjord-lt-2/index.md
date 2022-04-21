@@ -15,12 +15,12 @@ tags:
 > 現役受講生の有志によって不定期に開催されているイベントです。 イベントで登壇してみたいけど、ちょっと初めは失敗するかもしれないとか、色々不安があるもの。だったら、失敗して OK なイベントを自分たちで開催してしまおう、ということで始まった企画です。
 
 いきなり、外部のコミュニティで登壇するのはすごく勇気のいることなのでいったんクローズドなコミュニティで登壇してみようぜ、という趣旨のもと定期的に開催されています。  
-今回は「しくじりから学んだこと」というテーマでした
+今回は「しくじりから学んだこと」というテーマでした。
 
 # どんな内容の発表だったか
 
 「wakaranの解像度を上げるために」というタイトルで発表しました。  
-フィヨルドでは「分からないこと」を「wakaran」と表現することがあり、「解像度」を「ゴールまでの道筋」と例えて発表を行いました。  
+フィヨルドでは「分からないこと」を「wakaran」と表現することがあり、「解像度」を「ゴールまでの道筋」と例えて発表しました。  
 自分の伝えたいことは、適当に情報をかいつまみながら実装するんではなく、事前にタスクをリストアップして見通しをよくしてから取り掛かりましょうという事でした。
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/2137db5298ff4deb8990e3446364d77c" title="wakaranの解像度を上げるために / fjord lt vol-9" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;" data-ratio="1.78343949044586"></iframe>

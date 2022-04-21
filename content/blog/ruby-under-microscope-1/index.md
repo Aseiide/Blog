@@ -29,7 +29,7 @@ Rubyのしくみという本を読んでいます。せっかくなので章ご�
 
 # 事前知識
 
-この本だけでも十分に理解できるとは思いますが、自分は以下の資料を読みました
+この本だけでも十分に理解できるとは思いますが、自分は以下の資料を読みました。
 
 - [YARV INTRODUCTION](https://www.slideshare.net/5t111111/yarv-introduction)
 - [YARV Maniacs 【第 1 回】 『Ruby ソースコード完全解説』不完全解説](https://magazine.rubyist.net/articles/0006/0006-YarvManiacs.html)
@@ -72,7 +72,7 @@ puts code
 pp Ripper.lex(code)
 ```
 
-実行結果
+実行結果は以下のようになりました。
 
 ```shell
 [[[1, 0], :on_int, "10", END],
@@ -113,7 +113,7 @@ pp Ripper.lex(code)
 ### 最終的に
 
 構文解析では、最終的に抽象構文木(AST)と呼ばれるデータ構造へと変換される。
-本にはこの過程が詳しく書かれていたが、10%くらいしか理解できなかった
+本にはこの過程が詳しく書かれていたが、10%くらいしか理解できませんでした。
 
 
 # 引用元の明記
@@ -125,4 +125,3 @@ https://www.ohmsha.co.jp/book/9784274050657/
 書名: RubyのしくみRuby Under a Microscope  
 出版社: オーム社開発局  
 出版年: 2014年  
-

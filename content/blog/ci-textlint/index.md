@@ -9,7 +9,8 @@ tags:
 - GiHub Actions
 ---
 
-このブログを書くのにHugo + Netlifyで運営をしているのですが、CIの勉強も兼ねてGitHub Actionsを使ってPRが作られた時点でtextlintを実行し、reviewdogでルールに違反しているところにコメントを入れるようにしてみました。
+このブログを書くのにHugo + Netlifyで運営をしています。
+今回、CIの勉強も兼ねてGitHub Actionsを使ってPRが作られた時点でtextlintを実行し、reviewdogでルールに違反しているところにコメントを入れるようにしてみました。
 **コピペしたら動いちゃった、というあまりよろしくない感じなので正確性は保証しておりません。**
 
 # 導入の手順
