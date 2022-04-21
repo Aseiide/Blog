@@ -120,8 +120,10 @@ pp Ripper.lex(code)
 本記事は、以下に示す書籍を参考に執筆しました。
 https://www.ohmsha.co.jp/book/9784274050657/
 
+```
 著者名: Pat Shaughnessy  
 訳者名: 島田浩二・角谷信太郎共訳  
 書名: RubyのしくみRuby Under a Microscope  
 出版社: オーム社開発局  
-出版年: 2014年  
+出版年: 2014年
+```
