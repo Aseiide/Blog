@@ -60,7 +60,7 @@ from -e:1:in `<main>'
 ログを見る限りは、`stringio 3.1.0`が必要ということだったので`gem install stringio -v 3.0.1`を実行しインストールしました。
 そうしたところ、エラーは直り開発環境が無事に立ち上がるようになりました。
 
-# なぜgemのインストールで解決したのか？？
+# なぜgemのインストールで解決したのか??
 
  そもそも、原因は以下のように推測されるようです。
 
@@ -79,7 +79,7 @@ from -e:1:in `<main>'
 
 # タイトル回収
 
-ではなぜ、プロジェクトのローカルにしか`stringio 3.0.1`が入っておらず、システム(PC全体)に入っていなかったのか？？
+ではなぜ、プロジェクトのローカルにしか`stringio 3.0.1`が入っておらず、システム(PC全体)に入っていなかったのか??
 `bundle install --path vendor/bundle`の設定が残っていたためでした。
 [bundle install時に--path vendor/bundleを付ける必要性は本当にあるのか、もう一度よく考えてみよう - Qiita](https://qiita.com/jnchito/items/99b1dbea1767a5095d85)を読んで以降、`bundle install`はオプション無で実行するようにしていましたが、以前はいプションを付けていたのでその時の設定が残っていたために、`bundle install --path vendor/bundle`をしたのと同じ挙動になっていたようです。
 

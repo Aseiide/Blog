@@ -31,7 +31,7 @@ tags:
 
 # 料金
 
-今回購入したのは、
+今回購入したもの。
 
 - Ethiopia Tatmara Natural 250g
 - Kenya Katinaga 250g
