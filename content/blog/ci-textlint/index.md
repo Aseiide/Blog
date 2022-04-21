@@ -47,6 +47,10 @@ jobs:
 
 - いつもの通り、PRを作る
 
+- こんな感じになりました
+
+{{< img640x src="images/ss.png" alt="screen shot" >}}
+
 # 導入したツールについて(メモ)
 
 ## textlint
