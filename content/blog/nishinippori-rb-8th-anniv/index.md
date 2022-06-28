@@ -16,8 +16,10 @@ tags:
 - かつて西日暮里が拠点で、現在はオンラインで開催しているRubyコミュニティ
 	- オフラインでやっていたときは会社のオフィスでやったり、西日暮里のフィレンツェというレストランでやっていたらしい。
 		- 僕が東京に行くタイミングで、一度だけ皆でランチしたことがあります。(なつかしい)
-- オーガナイザー・メンバー
-	- [@HKDnet](https://twitter.com/HKDnet) [@mtsmfm](https://twitter.com/mtsmfm) [@yahonda](https://twitter.com/yahonda)
+- オーガナイザー
+	- [@HKDnet](https://twitter.com/HKDnet) [@mtsmfm](https://twitter.com/mtsmfm)
+    - よくいる人
+      - [@yahonda](https://twitter.com/yahonda) [@aseiide](https://twitter.com/aseiide)
 - 月一回、第4月曜 20:00 ~ 23:30 で開催
 	- 20:00 ~ 22:00 はslackを使ってテキストベースで各自もくもく
 		- 質問はslackに投げると誰かが答えてくれる
