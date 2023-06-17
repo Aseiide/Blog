@@ -20,5 +20,8 @@
   "devDependencies": {
     "textlint": "^12.1.1",
     "textlint-rule-preset-smarthr": "^1.13.0"
+  },
+  "dependencies": {
+    "remark": "^14.0.3"
   }
 }
